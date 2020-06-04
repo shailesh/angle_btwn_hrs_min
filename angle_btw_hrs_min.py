@@ -11,7 +11,7 @@ def calcAngle(hour,minute):
     angle = min(360 - abs_angle, abs_angle) 
     return angle 
 
-# river program   
+# driver program   
 hour = 6
 minute = 15
 print('Angle ', calcAngle(hour,minute))
